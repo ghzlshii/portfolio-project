@@ -1,8 +1,58 @@
-h1 {
-  font-family: "Playfair Display", serif;
+:root {
+  --primary-color: #ff7e7e;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Jost", sans-serif;
+}
+
+.hero {
+  background: white;
+  padding: 90px 10px;
+  max-width: 850px;
+  border: #ff7e7e solid 1px;
+}
+
+#who h1 {
+  font-family: var(--heading-font-family);
+  font-size: 50px;
   font-weight: 600;
+  margin-left: 74px;
+}
+#who h5 {
+  font-family: var(--heading-font-family);
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 79px;
 }
 p {
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 17px;
+  margin: 79px;
+}
+
+.button-1 {
+  background: var(--primary-color);
+  border: var(--primary-color) solid 1px;
+  border-radius: 100px;
+  padding: 2px 60px;
+  margin-right: 55px;
+  margin-left: 200px;
+  margin-bottom: 200px;
+}
+.button-1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.button-2 {
+  border: var(--primary-color) solid 1px;
+  border-radius: 100px;
+  background: white;
+  padding: 10px 35px;
+  margin-bottom: 200px;
+}
+.button-2 a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 20px;
 }
