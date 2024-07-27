@@ -17,6 +17,50 @@
   font-weight: 600;
   text-align: center;
 }
+.work {
+  padding: 160px 20px;
+}
+.text p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+}
+.text-2 p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+}
+.text {
+  padding: 100px 0 0;
+  margin: 0;
+}
+.text-2 {
+  padding: 150px 0 0;
+  margin: 0;
+}
+.text-2 h3 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  font-weight: 600;
+}
+.text h3 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.work h1 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
 .about-section p {
   font-family: var(--default-font-family);
   font-weight: 400;
@@ -89,6 +133,33 @@ p {
     margin: 0;
     text-align: center;
     margin-bottom: 20px;
+  }
+  .work {
+    padding: 60px 20px;
+  }
+  .weather {
+    margin-bottom: 30px;
+  }
+  .guitar {
+    margin: 0 auto;
+    display: block;
+  }
+  .text {
+    padding: 0;
+  }
+
+  .text-2 h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .text-2 {
+    padding: 0;
+  }
+  .text h3 {
+    text-align: center;
+  }
+  .text p {
+    margin-bottom: 40px;
   }
   .about-section p {
     text-align: center;
