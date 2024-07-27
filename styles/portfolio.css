@@ -8,7 +8,22 @@
   background: white;
   padding: 160px 20px;
 }
-
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+.about-section p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-left: 520px;
+}
 #who h1 {
   font-family: var(--heading-font-family);
   font-size: 50px;
@@ -54,12 +69,30 @@ p {
   text-decoration: none;
   font-size: 20px;
 }
+.location {
+  text-align: center;
+}
+.button-3 {
+  border: var(--primary-color) solid 1px;
+  border-radius: 100px;
+  background: white;
+  padding: 10px 25px;
+}
+.button-3 a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 15px;
+}
 @media (max-width: 950px) {
   #who h1 {
     font-size: 40px;
     margin: 0;
     text-align: center;
     margin-bottom: 20px;
+  }
+  .about-section p {
+    text-align: center;
+    margin: 0;
   }
   #who h5 {
     font-size: 20px;
