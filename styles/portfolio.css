@@ -173,6 +173,28 @@ p {
   text-decoration: none;
   font-size: 15px;
 }
+footer a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+}
+footer a:hover {
+  color: var(--primary-color);
+}
+.social-links a {
+  color: var(--primary-color);
+  margin: 0 10px;
+  font-size: 27px;
+}
+.social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+  padding: 0 5px;
+  border-radius: 50%;
+}
 @media (max-width: 950px) {
   #who h1 {
     font-size: 40px;
