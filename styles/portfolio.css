@@ -11,6 +11,32 @@
 .about-section {
   padding: 160px 20px;
 }
+.contact {
+  padding: 160px 20px;
+}
+.contact h1 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+.contact a {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.contact h4 {
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
 .about-section h1 {
   font-family: var(--heading-font-family);
   font-size: 45px;
